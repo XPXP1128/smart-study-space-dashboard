@@ -155,6 +155,10 @@ export default function App() {
         if (data) {
           const updatedAt = Number(data.updatedAt ?? 0);
           const diff = Date.now() - updatedAt;
+          //const updatedAt = normalizeTs(data.updatedAt);
+          //const diff = Date.now() - updatedAt;
+          setSystemOnline(updatedAt > 0 && diff < 15000);
+
 
           setSystemOnline(diff < 15000); // online if updated within 15s
 
