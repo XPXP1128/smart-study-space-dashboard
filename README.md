@@ -1,4 +1,5 @@
 # USM Library Monitor (Smart Study Space Monitoring System)
+Course: CPC357: IOT ARCHITECTURE AND SMART APPLICATIONS (Project) 
 
 This project is a pilot Smart Study Space Monitoring System for the USM Library.
 An ESP32 node reads seat occupancy and lighting conditions, uploads data to Firebase Realtime Database (RTDB), and a React dashboard displays real-time status and historical analytics.
