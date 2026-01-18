@@ -35,7 +35,7 @@ import {
 // FIREBASE CONFIGURATION - CHANGE THESE IF NEEDED
 // =============================================
 const firebaseConfig = {
-  apiKey: "AIzaSyCRZ7WkCXFl2QGLWDlJAHgWVkiARecHQ04",
+  apiKey: "",
   authDomain: "smart-study-space-b59cb.firebaseapp.com",
   databaseURL:
     "https://smart-study-space-b59cb-default-rtdb.asia-southeast1.firebasedatabase.app",
